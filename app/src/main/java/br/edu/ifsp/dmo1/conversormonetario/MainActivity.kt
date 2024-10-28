@@ -41,7 +41,6 @@ private val DOLLAR_VALUE = 5.50
         toRealButton.setOnClickListener(this)
         toDollarButton.setOnClickListener(this)
     }
-
     private fun getValue(): Double{
         return try {
             inputEditText.text.toString().toDouble()
@@ -60,4 +59,3 @@ private val DOLLAR_VALUE = 5.50
         outputTextView.text = "R$ $value"
     }
 }
-
